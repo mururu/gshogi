@@ -6,7 +6,7 @@ This is heavily inspired by [python-shogi](https://github.com/gunyarakun/python-
 
 ## Usage
 
-### `USIHandler`
+You can build a daemon which can talk USI protocol like the following example.
 
 ```go
 package main
@@ -35,6 +35,9 @@ func main() {
 	}
 }
 ```
+
+And you can implement a shogi engine.
+See [examples](https://github.com/mururu/gshogi/blob/main/examples/gshogi-point/main.go).
 
 ## Todo
 
